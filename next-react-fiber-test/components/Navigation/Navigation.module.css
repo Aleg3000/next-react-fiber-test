@@ -1,0 +1,37 @@
+.wrapper {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.navBtn {
+    z-index: 10;
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    cursor: pointer;
+
+    font-family: 'Darker Grotesque', sans-serif;
+
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.closeBtn {
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    cursor: pointer;
+
+    font-family: 'Darker Grotesque', sans-serif;
+}

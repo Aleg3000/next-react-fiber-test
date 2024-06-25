@@ -1,0 +1,26 @@
+{
+  "name": "next-react-fiber-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "@react-three/drei": "^9.107.0",
+    "@react-three/fiber": "^8.16.8",
+    "glslify-loader": "^2.0.0",
+    "next": "14.2.4",
+    "raw-loader": "^4.0.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
+  }
+}
